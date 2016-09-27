@@ -1,25 +1,106 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DiningPhilosophersProblem" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wli-4a-nAZ">
+                                <rect key="frame" x="16" y="140" width="288" height="288"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="An_illustration_of_the_dining_philosophers_problem" translatesAutoresizingMaskIntoConstraints="NO" id="lAo-S4-HRT">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="288"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H1F-ho-wPq">
+                                        <rect key="frame" x="8" y="83" width="42" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g3H-21-Yez">
+                                        <rect key="frame" x="121" y="0.0" width="42" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S6L-gR-wKD">
+                                        <rect key="frame" x="239" y="85" width="42" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cln-gU-P6I">
+                                        <rect key="frame" x="194" y="225" width="42" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JqI-gK-Q5O">
+                                        <rect key="frame" x="50" y="225" width="42" height="64"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XrJ-Ko-pFN">
+                                        <rect key="frame" x="174" y="95" width="19" height="26"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="isL-bY-szo">
+                                        <rect key="frame" x="99" y="90" width="19" height="26"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVL-3U-bMp">
+                                        <rect key="frame" x="69" y="162" width="28" height="21"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8PI-m4-fAo">
+                                        <rect key="frame" x="130" y="203" width="24" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FUe-we-kcK">
+                                        <rect key="frame" x="187" y="169" width="29" height="23"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="lAo-S4-HRT" secondAttribute="trailing" id="4D3-rh-laJ"/>
+                                    <constraint firstItem="lAo-S4-HRT" firstAttribute="top" secondItem="Wli-4a-nAZ" secondAttribute="top" id="9gZ-Bz-LCU"/>
+                                    <constraint firstAttribute="bottom" secondItem="lAo-S4-HRT" secondAttribute="bottom" id="NCS-tH-kbZ"/>
+                                    <constraint firstAttribute="width" constant="288" id="ZkI-uw-n8U"/>
+                                    <constraint firstItem="lAo-S4-HRT" firstAttribute="leading" secondItem="Wli-4a-nAZ" secondAttribute="leading" id="d4u-uW-DD3"/>
+                                    <constraint firstAttribute="height" constant="288" id="oKF-oj-g4T"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wli-4a-nAZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7Ll-Zm-hL4"/>
+                            <constraint firstItem="Wli-4a-nAZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LOy-gj-xwQ"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outletCollection property="philosopherViews" destination="g3H-21-Yez" collectionClass="NSMutableArray" id="cO8-Yb-IkE"/>
+                        <outletCollection property="philosopherViews" destination="S6L-gR-wKD" collectionClass="NSMutableArray" id="qAB-NU-9fP"/>
+                        <outletCollection property="philosopherViews" destination="cln-gU-P6I" collectionClass="NSMutableArray" id="S9o-JQ-W7G"/>
+                        <outletCollection property="philosopherViews" destination="JqI-gK-Q5O" collectionClass="NSMutableArray" id="2v6-Ad-srN"/>
+                        <outletCollection property="philosopherViews" destination="H1F-ho-wPq" collectionClass="NSMutableArray" id="8RS-FU-qB2"/>
+                        <outletCollection property="forkViews" destination="XrJ-Ko-pFN" collectionClass="NSMutableArray" id="5SH-Zw-21A"/>
+                        <outletCollection property="forkViews" destination="FUe-we-kcK" collectionClass="NSMutableArray" id="2Mn-Zk-l7f"/>
+                        <outletCollection property="forkViews" destination="8PI-m4-fAo" collectionClass="NSMutableArray" id="cQ8-m0-12b"/>
+                        <outletCollection property="forkViews" destination="FVL-3U-bMp" collectionClass="NSMutableArray" id="tEP-gR-P0W"/>
+                        <outletCollection property="forkViews" destination="isL-bY-szo" collectionClass="NSMutableArray" id="0bb-je-R13"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="136"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="An_illustration_of_the_dining_philosophers_problem" width="1130" height="1172"/>
+    </resources>
 </document>
